@@ -25,8 +25,12 @@ public class UIManager : MonoBehaviour
     public Image gameOverImg;
     public Image volumeImg;
     public Image optionsImg;
+    public Image musicImg;
+    public Image sfxImg;
 
     public Slider volumeSldr;
+    public Slider musicSldr;
+    public Slider sfxSlider;
 
     public GameObject gameManager;
 
@@ -42,8 +46,9 @@ public class UIManager : MonoBehaviour
         gameOverImg.gameObject.SetActive(false);
         pauseImg.gameObject.SetActive(false);
         volumeImg.gameObject.SetActive(false);
-        volumeSldr.gameObject.SetActive(false);
         optionsImg.gameObject.SetActive(false);
+        musicImg.gameObject.SetActive(false);
+        sfxImg.gameObject.SetActive(false);
 
         againBtn.gameObject.SetActive(false);
         optionsBtn.gameObject.SetActive(false);
@@ -51,17 +56,45 @@ public class UIManager : MonoBehaviour
         playBtn.gameObject.SetActive(false);
         returnBtn.gameObject.SetActive(false);
 
+        volumeSldr.gameObject.SetActive(false);
+        musicSldr.gameObject.SetActive(false);
+        sfxSlider.gameObject.SetActive(false);
+
         backgroundImg.enabled = false;
 
-        /*if (!PlayerPrefs.HasKey("MusicVolume"))
+        if (!PlayerPrefs.HasKey("MasterVolume"))
         {
-            PlayerPrefs.SetFloat("MusicVolume", 1);
-            volumeSldr.GetComponent<SoundOptions>().Load();
+            PlayerPrefs.SetFloat("MasterVolume", 1);
+            GetComponent<SoundOptions>().LoadMaster();
         }
         else
         {
-            volumeSldr.GetComponent<SoundOptions>().Load();
-        }*/
+            GetComponent<SoundOptions>().LoadMaster();
+        }
+
+        if (!PlayerPrefs.HasKey("MusicVolume"))
+        {
+            PlayerPrefs.SetFloat("MusicVolume", 1);
+            GetComponent<SoundOptions>().LoadMusic();
+            Debug.Log("music");
+        }
+        else
+        {
+            GetComponent<SoundOptions>().LoadMusic();
+        }
+
+        if (!PlayerPrefs.HasKey("SFXVolume"))
+        {
+            PlayerPrefs.SetFloat("SFXVolume", 1);
+            GetComponent<SoundOptions>().LoadSFX();
+            Debug.Log("sfx");
+        }
+        else
+        {
+            GetComponent<SoundOptions>().LoadSFX();
+        }
+
+        
 
     }
 
@@ -81,6 +114,9 @@ public class UIManager : MonoBehaviour
         optionsBtn.gameObject.SetActive(true);
         pauseBtn.gameObject.SetActive(false);
         backgroundImg.enabled = true;
+
+        //stop audio bugging out when you die
+        FindObjectOfType<SoundManager>().Stop("Thruster");
 
     }
 
@@ -114,6 +150,8 @@ public class UIManager : MonoBehaviour
         {
             Time.timeScale = 0;
             state = MenuState.PAUSED;
+            //stop audio playing through pause
+            FindObjectOfType<SoundManager>().Stop("Thruster");
             Pause();
         }
         else if (Time.timeScale == 0)
@@ -155,6 +193,10 @@ public class UIManager : MonoBehaviour
         volumeSldr.gameObject.SetActive(true);
         pauseImg.gameObject.SetActive(false);
         gameOverImg.gameObject.SetActive(false);
+        musicImg.gameObject.SetActive(true);
+        sfxImg.gameObject.SetActive(true);
+        musicSldr.gameObject.SetActive(true);
+        sfxSlider.gameObject.SetActive(true);
 
         optionsImg.gameObject.SetActive(true);
 
@@ -171,8 +213,12 @@ public class UIManager : MonoBehaviour
     {
         volumeImg.gameObject.SetActive(false);
         volumeSldr.gameObject.SetActive(false);
-        
-        if(state == MenuState.PAUSED)
+        musicImg.gameObject.SetActive(false);
+        sfxImg.gameObject.SetActive(false);
+        musicSldr.gameObject.SetActive(false);
+        sfxSlider.gameObject.SetActive(false);
+
+        if (state == MenuState.PAUSED)
         {
             pauseImg.gameObject.SetActive(true);
             playBtn.gameObject.SetActive(true);

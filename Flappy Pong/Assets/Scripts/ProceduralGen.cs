@@ -48,26 +48,11 @@ public class ProceduralGen : MonoBehaviour
         if (dist > 5 && playerPos.x < newPlayerPos.x)
         {
             MovingGenRight();
-            MovingGenWallRight();
         }
         else if(dist > 5 && playerPos.x > newPlayerPos.x)
         {
             MovingGenLeft();
-            MovingGenWallLeft();
         }
-
-        /*//spawn wall
-        if (dist2 > 10 && playerPos2.x < newPlayerPos.x)
-        {
-            MovingGenWallRight();
-        }
-        else if (dist2 > 10 && playerPos2.x > newPlayerPos.x)
-        {
-            MovingGenWallLeft();
-        }*/
-
-        /*obstacleNum = Random.Range(0, 3);
-        Debug.Log(obstacleNum);*/
 
     }
 
@@ -162,6 +147,7 @@ public class ProceduralGen : MonoBehaviour
         }
 
         Instantiate(gameOver, playerPos + new Vector2(0, -1), Quaternion.identity);
+        Instantiate(wall, playerPos + new Vector2(35, 9), Quaternion.identity);
 
     }
 
@@ -208,20 +194,8 @@ public class ProceduralGen : MonoBehaviour
         }
 
         Instantiate(gameOver, playerPos + new Vector2(0, -1), Quaternion.identity);
-
-    }
-
-    public void MovingGenWallRight()
-    {
-        playerPos = player.transform.position;
-
-        Instantiate(wall, playerPos + new Vector2(35, 9), Quaternion.identity);
-    }
-
-    public void MovingGenWallLeft()
-    {
-        playerPos = player.transform.position;
-
         Instantiate(wall, playerPos + new Vector2(-35, 9), Quaternion.identity);
+
     }
+
 }

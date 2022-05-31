@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.AI;
 
 public class Ball : MonoBehaviour
 {
@@ -11,8 +12,7 @@ public class Ball : MonoBehaviour
     Vector2 ballPos;
 
     //public float timer1 = 3;
-    public float timer2 = 3;
-    
+    public float timer2 = 3;  
 
     bool isColliding = false;
     bool speedPU = false;
@@ -48,28 +48,15 @@ public class Ball : MonoBehaviour
         //ball position
         ballPos = gameObject.transform.position;
 
-        //to stop ball getting stcuk at top or bottom
-        /*if (ballPos.y > 3.7)
-        {
-            timer1 -= Time.deltaTime;
-        }*/
+        //to stop ball getting stuck at bottom
         if (ballPos.y < -3.7)
         {
             timer2 -= Time.deltaTime;
         }
-        /*if(ballPos.y < 3.7)
-        {
-            timer1 = 2;
-        }*/
         if (ballPos.y > -3.7)
         {
             timer2 = 2;
         }
-        /*if (timer1 <= 0)
-        {
-            float x = Random.Range(0, 2) == 0 ? -1 : 1;
-            rb.velocity = new Vector2(speed * x, speed * -1);
-        }*/
         if(timer2 <= 0)
         {
             float x = Random.Range(0, 2) == 0 ? -1 : 1;
@@ -88,7 +75,7 @@ public class Ball : MonoBehaviour
 
 
 
-        //to check is speed buff is active
+        //to check is speed buff is active and to set constant ball speed
         if (ballSpeed == true)
         {
             rb.velocity = speedBoost * (rb.velocity.normalized);
@@ -103,9 +90,6 @@ public class Ball : MonoBehaviour
 
     private void Movement()
     {
-        /*float x = Random.Range(0, 2) == 0 ? -1 : 1;
-        float y = Random.Range(0, 2) == 0 ? -1 : 1;
-        rb.velocity = new Vector2(speed * x, speed * y);*/
         float x = Random.Range(0, 2) == 0 ? -1 : 1;
         rb.velocity = new Vector2(speed * x, speed * 1);
     }

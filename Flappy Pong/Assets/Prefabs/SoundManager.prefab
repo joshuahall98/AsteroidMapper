@@ -54,7 +54,7 @@ MonoBehaviour:
   - name: Bounce
     clip: {fileID: 8300000, guid: 457e7e205f6cf1c4bae52572a9b241d0, type: 3}
     group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
-    volume: 1
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -85,4 +85,11 @@ MonoBehaviour:
     volume: 0.5
     pitch: 2
     loop: 0
+    source: {fileID: 0}
+  - name: Thruster
+    clip: {fileID: 8300000, guid: 5e225d39cfc66c44d99bff1299bf3faf, type: 3}
+    group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
+    volume: 0.05
+    pitch: 2
+    loop: 1
     source: {fileID: 0}

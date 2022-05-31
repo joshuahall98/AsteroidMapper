@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3571505053582629671}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -332,7 +332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -451,7 +451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -474,7 +474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -545,7 +545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -664,7 +664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -687,7 +687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -806,7 +806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -877,7 +877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -900,7 +900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -971,7 +971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -1090,7 +1090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -1161,7 +1161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -1232,7 +1232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -1303,7 +1303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -1374,7 +1374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -1445,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -1516,7 +1516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -1539,7 +1539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -1610,7 +1610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -1729,7 +1729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -1752,7 +1752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -1871,7 +1871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -1942,7 +1942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -1965,7 +1965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -2084,7 +2084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -2155,7 +2155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2226,7 +2226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -2297,7 +2297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2368,7 +2368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -2439,7 +2439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2510,7 +2510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2581,7 +2581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2652,7 +2652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -2723,7 +2723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2746,7 +2746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -2865,7 +2865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -2936,7 +2936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -2959,7 +2959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3078,7 +3078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -3149,7 +3149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -3172,7 +3172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3243,7 +3243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3314,7 +3314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3385,7 +3385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3504,7 +3504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -3575,7 +3575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -3598,7 +3598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3717,7 +3717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -3740,7 +3740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3811,7 +3811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -3930,7 +3930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -3953,7 +3953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5634715853057957902, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6744256350825290032, guid: fbb748c9b51314d44b0f803cddf8e2fe, type: 3}
       propertyPath: m_RootOrder
@@ -4072,7 +4072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -4143,7 +4143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1931272484441537420, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6692223502105233035, guid: 91e5f50f716d0ee42b2c736220ae8989, type: 3}
@@ -4214,7 +4214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}
@@ -4285,7 +4285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915407827323393294, guid: 179256af74e19374880530b04951d993, type: 3}
       propertyPath: m_TagString
-      value: Collision
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4443693733707671561, guid: 179256af74e19374880530b04951d993, type: 3}

@@ -24,8 +24,7 @@ public class GameManager : MonoBehaviour
     {
         uiManager = GameObject.Find("UI");
         player = GameObject.Find("Player");
-
-        
+  
     }
 
     private void Update()
@@ -41,20 +40,6 @@ public class GameManager : MonoBehaviour
                 FindObjectOfType<SoundManager>().Play("Lose");
             }
 
-            /*if (Input.GetKeyDown(KeyCode.P))
-            {
-                if (Time.timeScale == 1)
-                {
-                    Time.timeScale = 0;
-                    uiManager.GetComponent<UIManager>().Pause();
-                }
-                else if (Time.timeScale == 0)
-                {
-                    Time.timeScale = 1;
-                    uiManager.GetComponent<UIManager>().UnPause();
-                }
-
-            }*/
         }
 
         //timers
@@ -88,12 +73,12 @@ public class GameManager : MonoBehaviour
         //shrink debuff
         if (shrinkerTimer <= 0)
         {
-            player.transform.localScale = new Vector3(5, 0.5f, 1);
+            player.transform.localScale = new Vector3(1, 1, 1);
             shrinkerTimer = 0;
         }
         else if (shrinkerTimer > 0)
         {
-            player.transform.localScale = new Vector3(2, 0.5f, 1);
+            player.transform.localScale = new Vector3(0.5f, 0.5f, 1);
         }
 
     }

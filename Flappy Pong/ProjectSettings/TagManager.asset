@@ -8,10 +8,10 @@ TagManager:
   - Obstacle
   - GameOver
   - DoubleBall
-  - Wall2
   - SpeedBall
   - DoublePoints
   - Shrinker
+  - Wall
   layers:
   - Default
   - TransparentFX
