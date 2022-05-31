@@ -44,27 +44,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: BGMusic
+  - name: GameBG
     clip: {fileID: 8300000, guid: bd6f422c729fb6343b1f080da77f3c95, type: 3}
+    group: {fileID: 265243113291775070, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
     volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Bounce
     clip: {fileID: 8300000, guid: 457e7e205f6cf1c4bae52572a9b241d0, type: 3}
+    group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: PowerUp
     clip: {fileID: 8300000, guid: 1cfdd4264db224d449bd1600ceb8a17a, type: 3}
+    group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Lose
     clip: {fileID: 8300000, guid: eb98ed170d4f3c74c9768a8d3e456d4e, type: 3}
+    group: {fileID: 0}
     volume: 1
     pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: e07cd3a3dc212b240a00b64e09ac2541, type: 3}
+    group: {fileID: 265243113291775070, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 1cfdd4264db224d449bd1600ceb8a17a, type: 3}
+    group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
+    volume: 0.5
+    pitch: 2
     loop: 0
     source: {fileID: 0}

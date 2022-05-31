@@ -53,7 +53,7 @@ public class UIManager : MonoBehaviour
 
         backgroundImg.enabled = false;
 
-        if (!PlayerPrefs.HasKey("MusicVolume"))
+        /*if (!PlayerPrefs.HasKey("MusicVolume"))
         {
             PlayerPrefs.SetFloat("MusicVolume", 1);
             volumeSldr.GetComponent<SoundOptions>().Load();
@@ -61,7 +61,7 @@ public class UIManager : MonoBehaviour
         else
         {
             volumeSldr.GetComponent<SoundOptions>().Load();
-        }
+        }*/
 
     }
 
