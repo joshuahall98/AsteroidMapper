@@ -67,7 +67,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Lose
     clip: {fileID: 8300000, guid: eb98ed170d4f3c74c9768a8d3e456d4e, type: 3}
-    group: {fileID: 0}
+    group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
     volume: 1
     pitch: 1
     loop: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
   - name: Thruster
     clip: {fileID: 8300000, guid: 5e225d39cfc66c44d99bff1299bf3faf, type: 3}
     group: {fileID: 1097888113478542413, guid: cf3fc73a003122d4eb0e943d60d7bc30, type: 2}
-    volume: 0.05
+    volume: 0.1
     pitch: 2
     loop: 1
     source: {fileID: 0}

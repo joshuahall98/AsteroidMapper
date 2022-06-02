@@ -37,18 +37,7 @@ public class SoundManager : MonoBehaviour
     }
 
     private void Start()
-    {
-        /*Scene currentScene = SceneManager.GetActiveScene();
-
-        switch(currentScene.buildIndex)
-        {
-            case 0:
-                Play("MainMenu");
-                break;
-            case 1:
-                Play("GameBG");
-                break;
-        }*/
+    { 
 
         Play("MainMenu");
 

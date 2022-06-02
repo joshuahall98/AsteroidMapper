@@ -123,24 +123,28 @@ public class Ball : MonoBehaviour
             gameManager.GetComponent<GameManager>().IncreaseBallCount();
             Destroy(collision.gameObject);
             FindObjectOfType<SoundManager>().Play("PowerUp");
+            uiManager.GetComponent<UIManager>().MultiBallTxt();
         }
         else if (collision.gameObject.tag == "DoublePoints")
         {
             gameManager.GetComponent<GameManager>().StartDoublePoints();
             Destroy(collision.gameObject);
             FindObjectOfType<SoundManager>().Play("PowerUp");
+            uiManager.GetComponent<UIManager>().DoublePointsTxt();
         }
         else if (collision.gameObject.tag == "SpeedBall")
         {
             gameManager.GetComponent<GameManager>().IncreaseBallSpeed();
             Destroy(collision.gameObject);
             FindObjectOfType<SoundManager>().Play("PowerUp");
+            uiManager.GetComponent<UIManager>().SpeedBoostTxt();
         }
         else if(collision.gameObject.tag == "Shrinker")
         {
             gameManager.GetComponent<GameManager>().DecreasePaddleSize();
             Destroy(collision.gameObject);
             FindObjectOfType<SoundManager>().Play("PowerUp");
+            uiManager.GetComponent<UIManager>().ShrinkerTxt();
         }
 
     }

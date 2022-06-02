@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
 
     //UI
     public Text scoreTxt;
+    public Text highscoreTxt;
+    public Text powerUpTxt;
 
     public Button againBtn;
     public Button optionsBtn;
@@ -35,6 +37,7 @@ public class UIManager : MonoBehaviour
     public GameObject gameManager;
 
     int score = 0;
+    public int highscore;
     public bool doublePoints = false;
 
     private void Start()
@@ -43,7 +46,10 @@ public class UIManager : MonoBehaviour
 
         gameManager = GameObject.Find("GameManager");
 
-        gameOverImg.gameObject.SetActive(false);
+        highscoreTxt.gameObject.SetActive(false);
+        powerUpTxt.gameObject.SetActive(false);
+
+    gameOverImg.gameObject.SetActive(false);
         pauseImg.gameObject.SetActive(false);
         volumeImg.gameObject.SetActive(false);
         optionsImg.gameObject.SetActive(false);
@@ -101,6 +107,7 @@ public class UIManager : MonoBehaviour
     private void Update()
     {
         doublePoints = GameManager.doublePoints;
+
     }
 
     public void GameOver()
@@ -118,6 +125,23 @@ public class UIManager : MonoBehaviour
         //stop audio bugging out when you die
         FindObjectOfType<SoundManager>().Stop("Thruster");
 
+        if (!PlayerPrefs.HasKey("Highscore"))
+        {
+            PlayerPrefs.SetInt("Highscore", score);
+        }
+        else
+        {
+            highscore = PlayerPrefs.GetInt("Highscore");
+
+            if (score > highscore)
+            {
+                PlayerPrefs.SetInt("Highscore", score);
+            }
+        }
+
+        highscoreTxt.text = "HIGHSCORE: " + PlayerPrefs.GetInt("Highscore");
+
+        highscoreTxt.gameObject.SetActive(true);
     }
 
     public void Score()
@@ -153,6 +177,7 @@ public class UIManager : MonoBehaviour
             //stop audio playing through pause
             FindObjectOfType<SoundManager>().Stop("Thruster");
             Pause();
+
         }
         else if (Time.timeScale == 0)
         {
@@ -238,5 +263,38 @@ public class UIManager : MonoBehaviour
 
         FindObjectOfType<SoundManager>().Play("Button");
     }
-   
+
+    public void DoublePointsTxt()
+    {
+        powerUpTxt.gameObject.SetActive(false);
+        powerUpTxt.text = "DOUBLE POINTS";
+        powerUpTxt.color = new Color(0.6078432f, 0.3254902f, 0.7490196f);
+        powerUpTxt.gameObject.SetActive(true);
+        
+    }
+
+    public void SpeedBoostTxt()
+    {
+        powerUpTxt.gameObject.SetActive(false);
+        powerUpTxt.text = "SPEED BOOST";
+        powerUpTxt.color = new Color(0.3490196f, 0.7568628f, 0.2745098f);
+        powerUpTxt.gameObject.SetActive(true);
+    }
+
+    public void ShrinkerTxt()
+    {
+        powerUpTxt.gameObject.SetActive(false);
+        powerUpTxt.text = "SHRINKER";
+        powerUpTxt.color = new Color(0.3254902f, 0.3960785f, 0.7490196f);
+        powerUpTxt.gameObject.SetActive(true);
+    }
+
+    public void MultiBallTxt()
+    {
+        powerUpTxt.gameObject.SetActive(false);
+        powerUpTxt.text = "MULTIBALL";
+        powerUpTxt.color = new Color(0.7490196f, 0.3254902f, 0.3254902f);
+        powerUpTxt.gameObject.SetActive(true);
+    }
+
 }
