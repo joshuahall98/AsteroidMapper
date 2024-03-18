@@ -56,10 +56,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -98,6 +100,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -424,9 +427,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_II_Flame_16x16_8: -2561122423727652427
+      Fire_II_Flame_16x16_6: -8515359647781170718
+      Fire_II_Flame_16x16_11: 8947467839563069314
+      Fire_II_Flame_16x16_5: -4040240182508381988
+      Fire_II_Flame_16x16_10: -4148118228399580888
+      Fire_II_Flame_16x16_1: 1402786147597524970
+      Fire_II_Flame_16x16_7: 7525290366193967207
+      Fire_II_Flame_16x16_4: -1417351862317138093
+      Fire_II_Flame_16x16_9: -2351569323687653021
+      Fire_II_Flame_16x16_2: -6624933829065726401
+      Fire_II_Flame_16x16_0: -1962693513123065923
+      Fire_II_Flame_16x16_3: -5080618806102973210
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

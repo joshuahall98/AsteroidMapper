@@ -13,7 +13,6 @@ public class Movement : MonoBehaviour
     public GameObject ship;
 
     bool sfx = false;
-    bool mainSFX = false;
 
     private void Start()
     {

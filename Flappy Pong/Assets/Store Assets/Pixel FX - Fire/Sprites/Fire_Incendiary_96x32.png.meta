@@ -68,10 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -110,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -520,9 +523,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_Incendiary_96x32_11: -7477856934265883545
+      Fire_Incendiary_96x32_5: -9022386717482406885
+      Fire_Incendiary_96x32_7: -3134677286847059809
+      Fire_Incendiary_96x32_8: -6570920721470904551
+      Fire_Incendiary_96x32_3: -6898929026823205950
+      Fire_Incendiary_96x32_4: -4088476253307753314
+      Fire_Incendiary_96x32_10: -3865183837477957130
+      Fire_Incendiary_96x32_15: 2610017152714688636
+      Fire_Incendiary_96x32_6: -2147978348421139112
+      Fire_Incendiary_96x32_14: 8750376614518884735
+      Fire_Incendiary_96x32_12: 3253725462353309747
+      Fire_Incendiary_96x32_1: -2843095853283080385
+      Fire_Incendiary_96x32_13: 710010488690403988
+      Fire_Incendiary_96x32_0: -5564397493214910013
+      Fire_Incendiary_96x32_2: -6678917434920263903
+      Fire_Incendiary_96x32_9: 3553127706435692298
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

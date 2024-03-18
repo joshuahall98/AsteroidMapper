@@ -44,10 +44,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -86,6 +88,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -328,9 +331,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_Burn_Debuff_16x16_5: 6620862913054557292
+      Fire_Burn_Debuff_16x16_7: 8219459290948340450
+      Fire_Burn_Debuff_16x16_0: -2001500978720202382
+      Fire_Burn_Debuff_16x16_4: -1948988502562773534
+      Fire_Burn_Debuff_16x16_1: -8041357881712108557
+      Fire_Burn_Debuff_16x16_3: 6777380171806126325
+      Fire_Burn_Debuff_16x16_2: -5937992485546439986
+      Fire_Burn_Debuff_16x16_6: 4813278413516823623
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

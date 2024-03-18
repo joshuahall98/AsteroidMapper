@@ -53,10 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -95,6 +97,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -400,9 +403,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_Meteors_Large_B_32x32_0: 7573299938764983892
+      Fire_Meteors_Large_B_32x32_5: 590605653209839380
+      Fire_Meteors_Large_B_32x32_2: 8570978072134614460
+      Fire_Meteors_Large_B_32x32_3: -5774971095291003894
+      Fire_Meteors_Large_B_32x32_8: 6343281702334649223
+      Fire_Meteors_Large_B_32x32_9: 7668727928397023268
+      Fire_Meteors_Large_B_32x32_4: 96821393167078062
+      Fire_Meteors_Large_B_32x32_10: 8133815180026142089
+      Fire_Meteors_Large_B_32x32_6: 1271613422160977905
+      Fire_Meteors_Large_B_32x32_1: 4226990994032531701
+      Fire_Meteors_Large_B_32x32_7: -4921525149120737333
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

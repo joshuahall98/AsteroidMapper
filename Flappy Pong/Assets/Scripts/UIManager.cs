@@ -120,6 +120,7 @@ public class UIManager : MonoBehaviour
         mainMenuBtn.gameObject.SetActive(true);
         optionsBtn.gameObject.SetActive(true);
         pauseBtn.gameObject.SetActive(false);
+        powerUpTxt.gameObject.SetActive(false);
         backgroundImg.enabled = true;
 
         //stop audio bugging out when you die

@@ -83,10 +83,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +127,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -640,9 +643,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_III_Hand_144x80_14: -5559265738607937495
+      Fire_III_Hand_144x80_10: -7876353231633358170
+      Fire_III_Hand_144x80_9: 9117080182357633392
+      Fire_III_Hand_144x80_3: 7734851305288710356
+      Fire_III_Hand_144x80_16: -5017030108696133146
+      Fire_III_Hand_144x80_6: 766998227116736979
+      Fire_III_Hand_144x80_12: 7836448908328974997
+      Fire_III_Hand_144x80_13: 8191981569816681100
+      Fire_III_Hand_144x80_17: -1785584175666203764
+      Fire_III_Hand_144x80_0: -325040664595633145
+      Fire_III_Hand_144x80_15: 1683067319763346879
+      Fire_III_Hand_144x80_18: -4963819204650998863
+      Fire_III_Hand_144x80_2: -6928349701714097234
+      Fire_III_Hand_144x80_11: 5576759732877262851
+      Fire_III_Hand_144x80_5: 3897925617638657696
+      Fire_III_Hand_144x80_8: 6769131641353519328
+      Fire_III_Hand_144x80_20: -4995148142845230103
+      Fire_III_Hand_144x80_1: -5837070770942258661
+      Fire_III_Hand_144x80_4: 2538927534340598719
+      Fire_III_Hand_144x80_7: -5027953277562038732
+      Fire_III_Hand_144x80_19: 2117109730591795009
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

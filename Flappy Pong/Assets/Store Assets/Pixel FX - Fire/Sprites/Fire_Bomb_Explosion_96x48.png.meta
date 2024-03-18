@@ -59,10 +59,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -101,6 +103,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -448,9 +451,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_Bomb_Explosion_96x48_3: 2670408902306743655
+      Fire_Bomb_Explosion_96x48_12: -4976417178726163005
+      Fire_Bomb_Explosion_96x48_1: -6006455605923769680
+      Fire_Bomb_Explosion_96x48_9: -2836785303666701264
+      Fire_Bomb_Explosion_96x48_2: 2104417978433143140
+      Fire_Bomb_Explosion_96x48_6: 6069304472392192484
+      Fire_Bomb_Explosion_96x48_4: 787647822728609194
+      Fire_Bomb_Explosion_96x48_0: 564983740382853904
+      Fire_Bomb_Explosion_96x48_10: 7929396251719590759
+      Fire_Bomb_Explosion_96x48_8: -946000942377729262
+      Fire_Bomb_Explosion_96x48_5: -5381214156125771086
+      Fire_Bomb_Explosion_96x48_7: 8117952710303009403
+      Fire_Bomb_Explosion_96x48_11: -7106078118149239761
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

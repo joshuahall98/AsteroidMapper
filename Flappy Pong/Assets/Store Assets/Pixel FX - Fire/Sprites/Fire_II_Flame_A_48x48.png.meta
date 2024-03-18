@@ -125,10 +125,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -167,6 +169,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -976,9 +979,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fire_II_Flame_A_48x48_24: 570624043128554864
+      Fire_II_Flame_A_48x48_31: 7813719832082764735
+      Fire_II_Flame_A_48x48_5: -5458187109120330180
+      Fire_II_Flame_A_48x48_30: -6640608489496690102
+      Fire_II_Flame_A_48x48_6: 8789657154474721121
+      Fire_II_Flame_A_48x48_33: 2251491658754857346
+      Fire_II_Flame_A_48x48_27: 3973256839378667041
+      Fire_II_Flame_A_48x48_10: 991330915879198011
+      Fire_II_Flame_A_48x48_32: -3589263210823589576
+      Fire_II_Flame_A_48x48_22: 4928757531068464205
+      Fire_II_Flame_A_48x48_23: -3201723446570779875
+      Fire_II_Flame_A_48x48_0: -458298769324753242
+      Fire_II_Flame_A_48x48_4: 4801390165282966166
+      Fire_II_Flame_A_48x48_18: -7028559379928227272
+      Fire_II_Flame_A_48x48_13: -7508950686829008481
+      Fire_II_Flame_A_48x48_34: -4408284386470454161
+      Fire_II_Flame_A_48x48_20: 8756152276818551200
+      Fire_II_Flame_A_48x48_29: -5454085339163202603
+      Fire_II_Flame_A_48x48_8: -5819636885862439066
+      Fire_II_Flame_A_48x48_17: -7066378770602237890
+      Fire_II_Flame_A_48x48_14: 2368213161833669159
+      Fire_II_Flame_A_48x48_19: -1275865801137297030
+      Fire_II_Flame_A_48x48_28: -9106609955566864180
+      Fire_II_Flame_A_48x48_15: -3309776650998730
+      Fire_II_Flame_A_48x48_26: 6062685114521791150
+      Fire_II_Flame_A_48x48_11: 627537308957384924
+      Fire_II_Flame_A_48x48_2: 4868666762920148553
+      Fire_II_Flame_A_48x48_1: -614500566351395707
+      Fire_II_Flame_A_48x48_7: 5646280341923052512
+      Fire_II_Flame_A_48x48_21: -9018215339110467981
+      Fire_II_Flame_A_48x48_3: -3207786465241362346
+      Fire_II_Flame_A_48x48_25: -3503805734720191067
+      Fire_II_Flame_A_48x48_16: -7454561285479567935
+      Fire_II_Flame_A_48x48_12: -9208380668605232827
+      Fire_II_Flame_A_48x48_9: 3189720363897882277
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

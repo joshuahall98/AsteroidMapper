@@ -15,9 +15,6 @@ public class Ball : MonoBehaviour
     public float timer2 = 3;  
 
     bool isColliding = false;
-    bool speedPU = false;
-    bool shrinkerPU = false;
-
 
     public GameObject uiManager;
     public GameObject gameManager;
